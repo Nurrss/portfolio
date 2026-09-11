@@ -34,8 +34,6 @@ const accentButton = {
       <a
         v-if="project.demoUrl"
         :href="project.demoUrl"
-        target="_blank"
-        rel="noopener"
         class="inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-medium transition"
         :class="accentButton[project.accent]"
       >

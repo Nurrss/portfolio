@@ -1,0 +1,1 @@
+import{_ as d,o as p,c as s,D as r,n as o}from"./index-D7I14fqc.js";const t={__name:"AppCard",props:{padded:{type:Boolean,default:!0}},setup(a){return(e,c)=>(p(),s("div",{class:o(["app-card",{"app-card--padded":a.padded}])},[r(e.$slots,"default",{},void 0)],2))}},l=d(t,[["__scopeId","data-v-af71bf20"]]);export{l as A};

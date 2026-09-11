@@ -1,0 +1,1 @@
+import{G as s}from"./index-BHwmVywf.js";const t={list:()=>s("/services"),listAdmin:()=>s("/services/admin"),create:e=>s("/services",{method:"POST",body:e}),update:(e,i)=>s(`/services/${e}`,{method:"PUT",body:i}),remove:e=>s(`/services/${e}`,{method:"DELETE"})};export{t as s};

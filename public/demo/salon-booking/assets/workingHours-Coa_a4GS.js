@@ -1,0 +1,1 @@
+import{W as s}from"./types-C84nx0uQ.js";const e={mon:"Пн",tue:"Вт",wed:"Ср",thu:"Чт",fri:"Пт",sat:"Сб",sun:"Вс"};function o(r){return s.map(t=>({day:t,label:e[t],hours:r[t]?`${r[t].start}–${r[t].end}`:"Выходной"}))}export{e as W,o as f};
