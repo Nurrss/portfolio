@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/demo/salon-booking/:path*", "destination": "/demo/salon-booking/index.html" },
+    { "source": "/demo/cardio-tracker/:path*", "destination": "/demo/cardio-tracker/index.html" },
+    { "source": "/demo/exam-platform/:path*", "destination": "/demo/exam-platform/index.html" },
+    { "source": "/demo/adal-chicken/:path*", "destination": "/demo/adal-chicken/index.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

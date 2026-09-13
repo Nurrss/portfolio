@@ -1,1 +1,0 @@
-import{G as i}from"./index-BHwmVywf.js";const t={list:()=>i("/reviews"),listAdmin:()=>i("/reviews/admin"),create:e=>i("/reviews",{method:"POST",body:e}),update:(e,r)=>i(`/reviews/${e}`,{method:"PUT",body:r}),remove:e=>i(`/reviews/${e}`,{method:"DELETE"})};export{t as r};

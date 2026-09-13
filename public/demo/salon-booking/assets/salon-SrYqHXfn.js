@@ -1,0 +1,1 @@
+import{G as t}from"./index-mbE92SSB.js";const n={get:()=>t("/salon"),update:o=>t("/salon",{method:"PUT",body:o}),getNotificationSettings:()=>t("/salon/notification-settings"),updateNotificationSettings:o=>t("/salon/notification-settings",{method:"PUT",body:o})};export{n as s};
